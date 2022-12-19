@@ -1,1 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Karla;
+}
 
+.header-container {
+  width: 100vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  padding-left: 10%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(1.18%, #672280), to(#a626d3));
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+}
+
+.header-container > img {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header-container > .header-title {
+  font-size: 2rem;
+  margin-right: auto;
+}
+
+.header-container > .header-project {
+  font-size: 1rem;
+  font-weight: 500;
+}
+/*# sourceMappingURL=index.css.map */
