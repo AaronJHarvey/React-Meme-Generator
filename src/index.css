@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: Karla;
+  font-family: Karla, sans-serif;
 }
 
 .header-container {
@@ -37,13 +37,33 @@
   font-weight: 500;
 }
 
-.text-form {
-  border: 1px solid red;
+main {
+  padding: 5%;
+}
+
+main > .text-form {
   height: 35vh;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 40px 40px;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template: 40px 40px / 1fr 1fr;
+  -ms-grid-columns: .5fr .5fr;
+      grid-template: 40px 40px / .5fr .5fr;
+  gap: 12%;
+}
+
+main > .text-form > .textbox {
+  font-family: Karla, sans-serif;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+}
+
+main > .text-form > .submit {
+  grid-column: 1/-1;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=index.css.map */
