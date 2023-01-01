@@ -30,3 +30,17 @@
 		font-weight: 500;
 	}
 }
+
+.text-form {
+	border: 1px solid red;
+	height: 35vh;
+	display: grid;
+	grid-template: 40px 40px / 1fr 1fr;
+
+	// & > .text-cont {
+	// 	border: 1px solid blue;
+	// 	display: flex;
+	// 	justify-content: space-around;
+	// 	height: 20%;
+	// }
+}

@@ -36,4 +36,14 @@
   font-size: 1rem;
   font-weight: 500;
 }
+
+.text-form {
+  border: 1px solid red;
+  height: 35vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 40px 40px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template: 40px 40px / 1fr 1fr;
+}
 /*# sourceMappingURL=index.css.map */
