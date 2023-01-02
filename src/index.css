@@ -42,7 +42,7 @@ main {
 }
 
 main > .meme-form {
-  height: 35vh;
+  height: 20vh;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 40px 40px;
@@ -65,5 +65,11 @@ main > .meme-form > .submit {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+main > .meme {
+  display: block;
+  margin: -3% auto auto;
+  max-height: 75%;
 }
 /*# sourceMappingURL=index.css.map */

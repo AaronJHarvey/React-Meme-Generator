@@ -36,7 +36,7 @@ main {
 
 	& > .meme-form {
 		// border: 1px solid red;
-		height: 35vh;
+		height: 20vh;
 		display: grid;
 		grid-template: 40px 40px / .5fr .5fr;
 		gap: 12%;
@@ -56,5 +56,11 @@ main {
 			border: none;
 			cursor: pointer;
 		}
+	}
+
+	& > .meme {
+		display: block;
+		margin: -3% auto auto;
+		max-height: 75%;
 	}
 }
